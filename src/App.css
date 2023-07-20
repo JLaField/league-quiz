@@ -1,0 +1,154 @@
+.App {
+  text-align: center;
+}
+
+.Sidebar {
+  width: 10vw;
+  position: fixed;
+}
+
+.Body {
+  margin-left: 10vw;
+  margin-right: 10vw;
+}
+
+.LinkToQuestion:hover {
+  background-color: aquamarine;
+  cursor: pointer;
+}
+
+ol {
+  list-style: none;
+}
+
+.FirstAnswer {
+  padding: 50px;
+  display: inline-block;
+  width: 25vw;
+  height: 20vh;
+  background-color: coral;
+}
+
+.SecondAnswer {
+  padding: 50px;
+  display: inline-block;
+  width: 25vw;
+  height: 20vh;
+  background-color: rgb(160, 41, 67);
+}
+
+.ThirdAnswer {
+  padding: 50px;
+  display: inline-block;
+  width: 25vw;
+  height: 20vh;
+  background-color: rgb(58, 119, 173);
+}
+
+.FourthAnswer {
+  padding: 50px;
+  display: inline-block;
+  width: 25vw;
+  height: 20vh;
+  background-color: rgb(47, 179, 113);
+}
+
+.FirstAnswer:hover {
+  background-color: rgba(255, 127, 80, 0.76);
+  cursor: pointer;
+}
+
+.SecondAnswer:hover {
+  background-color: rgba(160, 41, 67, 0.692);
+  cursor: pointer;
+}
+
+.ThirdAnswer:hover {
+  background-color: rgba(58, 119, 173, 0.671);
+  cursor: pointer;
+}
+
+.FourthAnswer:hover {
+  background-color: rgba(47, 179, 113, 0.623);
+  cursor: pointer;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+}
+
+img.check {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+}
+
+.LinkToQuestion {
+  display: inline-block;
+}
+
+.Skipbutton {
+  width: 10vw;
+  height: 5vh;
+  background-color: aquamarine;
+  position: relative;
+  left: 35vw;
+  top: 10px;
+}
+
+.Skipbutton:hover {
+  background-color: rgba(127, 255, 212, 0.507);
+  cursor: pointer;
+}
+
+.Skipimg {
+  width: 25px;
+  height: 25px;
+}
+
+.Submitbutton {
+  width: 5vw;
+  height: 5vh;
+  background-color: aquamarine;
+  position: fixed;
+  left: 88vw;
+  top: 5vh;
+}
+
+.Submitbutton:hover {
+  background-color: rgba(127, 255, 212, 0.507);
+  cursor: pointer;
+}
+
+.Startbutton {
+  width: 5vw;
+  height: 2.5vh;
+  background-color: aquamarine;
+  position: relative;
+  left: 37.5vw;
+  top: 10px;
+}
+
+.Startbutton:hover {
+  background-color: rgba(127, 255, 212, 0.507);
+  cursor: pointer;
+}
+
+.Confirmbutton {
+  width: 5vw;
+  height: 5vh;
+  background-color: aquamarine;
+  position: relative;
+  left: 37.5vw;
+  top: 10px;
+}
+
+.Confirmbutton:hover {
+  background-color: rgba(127, 255, 212, 0.507);
+  cursor: pointer;
+}
+
+h3 {
+  font-size: 50px;
+}
